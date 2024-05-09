@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+	background-color: #f8f7fd;
+}
+
+.formTitle {
+	@apply text-center font-medium text-lg tracking-wider mb-6;
+}
+
+.formButton {
+	@apply bg-[#F8B959] w-full pt-[0.5px] pb-1 mt-5 text-xs rounded-lg;
+}
+
+.formLabel {
+	@apply block text-xs font-semibold px-2;
+}
+
+.formInput {
+	@apply w-full rounded-xl bg-transparent border border-[#F8B959] focus:outline-none text-xs px-3;
+}
+
+.errorText {
+	@apply text-xs text-red-500 px-2;
+}
+
+.formText {
+	@apply text-[#F8B959] text-base tracking-wide text-center;
+}
+
+.roleSelect {
+	@apply text-xs w-[200px] px-4 py-1;
+}
+
+.postButton {
+	@apply w-fit px-5 py-1 text-xs rounded-xl;
+}
+
+.cardButtons {
+	@apply text-black rounded-xl text-xs text-center capitalize;
+}
+
+.loading {
+	@apply flex w-full h-screen justify-center items-center text-xs font-bold md:text-lg;
+}
+
+.adminView {
+	@apply rounded-xl text-center capitalize w-[200px] h-[100px] p-6;
+}
+
+.postDetails {
+	@apply text-lg font-semibold;
+}
